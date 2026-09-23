@@ -3,44 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VectiNeur Labs</title>
+
+  <title>VectiNeur Labs | AI Engineering & Innovation Intelligence</title>
   <meta
     name="description"
-    content="VectiNeur Labs engineers AI-driven software and innovation intelligence for startups, product teams, and R&D-led organizations."
+    content="VectiNeur Labs engineers AI-powered software, computer vision systems, automation, and innovation intelligence for startups, product teams, and research-led organizations."
   />
+  <meta name="theme-color" content="#0b1020" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
     rel="stylesheet"
   />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <div class="bg-orb orb-1"></div>
-  <div class="bg-orb orb-2"></div>
-  <div class="noise"></div>
+  <div class="site-glow site-glow-one" aria-hidden="true"></div>
+  <div class="site-glow site-glow-two" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
 
   <header class="site-header" id="top">
     <a class="brand" href="#top" aria-label="VectiNeur Labs home">
-      <span class="brand-mark">
-        <img src="logo.jpeg" alt="VectiNeur Labs logo" />
+      <span class="brand-mark" aria-hidden="true">
+        <img src="logo.jpeg" alt="" />
       </span>
-      <span class="brand-text">
+
+      <span class="brand-copy">
         <strong>VectiNeur Labs</strong>
-        <small>Engineering AI-driven software & innovation intelligence</small>
+        <span>AI Engineering &amp; Innovation Intelligence</span>
       </span>
     </a>
 
-    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
-      <span></span><span></span><span></span>
+    <button
+      class="menu-btn"
+      id="menuBtn"
+      type="button"
+      aria-label="Open navigation"
+      aria-controls="nav"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
 
-    <nav class="nav" id="nav">
-      <a href="#services">Services</a>
-      <a href="#process">Process</a>
-      <a href="#work">Work</a>
-      <a href="#contact" class="nav-cta">Request services</a>
+    <nav class="nav" id="nav" aria-label="Primary navigation">
+      <a href="#services">Capabilities</a>
+      <a href="#process">Approach</a>
+      <a href="#work">Selected work</a>
+      <a href="#contact" class="nav-cta">Start a conversation <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
 
@@ -49,242 +64,350 @@
       <div class="hero-copy reveal">
         <div class="eyebrow">
           <span class="eyebrow-dot"></span>
-          Modern AI software for teams that want real delivery
+          Engineering AI for real products and operations
         </div>
 
-        <h1>Build intelligent systems that feel premium and work in the real world.</h1>
+        <p class="hero-kicker">VectiNeur Labs</p>
+
+        <h1>From complex ideas to dependable intelligent systems.</h1>
 
         <p class="hero-lead">
-          VectiNeur Labs designs AI-powered products, computer vision systems, and practical automation
-          for startups, product teams, and research-led organizations.
+          We design and engineer AI-powered products, computer vision systems,
+          practical automation, and data-driven software for teams that need
+          technology to work beyond the prototype.
         </p>
 
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#contact">Start a project</a>
-          <a class="btn btn-secondary" href="#work">See selected work</a>
+          <a class="btn btn-primary" href="#contact">
+            Discuss a project <span aria-hidden="true">↗</span>
+          </a>
+          <a class="btn btn-secondary" href="#work">
+            Explore selected work
+          </a>
         </div>
 
-        <div class="hero-metrics">
-          <div class="metric">
-            <strong>AI/ML</strong>
-            <span>Product engineering</span>
+        <div class="hero-proof">
+          <div>
+            <span class="proof-label">Focus</span>
+            <strong>Applied AI &amp; software engineering</strong>
           </div>
-          <div class="metric">
-            <strong>CV</strong>
-            <span>Detection & tracking</span>
+          <div>
+            <span class="proof-label">Delivery</span>
+            <strong>Prototype → production</strong>
           </div>
-          <div class="metric">
-            <strong>R&D</strong>
-            <span>To production</span>
+          <div>
+            <span class="proof-label">Base</span>
+            <strong>Pune, India</strong>
           </div>
         </div>
       </div>
 
       <div class="hero-visual reveal">
-        <div class="glass-panel main-panel">
-          <div class="panel-top">
-            <span class="live-pill"></span>
-            <span>Current focus</span>
+        <div class="architecture-card">
+          <div class="architecture-head">
+            <div>
+              <span class="section-kicker">Engineering focus</span>
+              <h2>Systems designed around outcomes.</h2>
+            </div>
+            <span class="status-badge"><span></span> Active</span>
           </div>
 
-          <h3>Engineering practical AI that teams can actually use.</h3>
+          <div class="architecture-line" aria-hidden="true"></div>
 
-          <div class="chip-row">
-            <span class="chip">AI products</span>
-            <span class="chip">Computer vision</span>
-            <span class="chip">Automation</span>
-            <span class="chip">Data intelligence</span>
+          <div class="capability-stack">
+            <div class="capability-item">
+              <span class="capability-index">01</span>
+              <div>
+                <strong>Intelligent products</strong>
+                <span>AI workflows, models, interfaces, and application logic.</span>
+              </div>
+            </div>
+
+            <div class="capability-item">
+              <span class="capability-index">02</span>
+              <div>
+                <strong>Computer vision</strong>
+                <span>Detection, classification, recognition, and tracking.</span>
+              </div>
+            </div>
+
+            <div class="capability-item">
+              <span class="capability-index">03</span>
+              <div>
+                <strong>Automation</strong>
+                <span>Purpose-built systems that reduce repetitive manual work.</span>
+              </div>
+            </div>
+
+            <div class="capability-item">
+              <span class="capability-index">04</span>
+              <div>
+                <strong>Innovation intelligence</strong>
+                <span>Turning technical research into deployable product value.</span>
+              </div>
+            </div>
           </div>
 
-          <div class="mini-grid">
-            <div class="mini-card">
-              <span class="mini-label">Approach</span>
-              <strong>Outcome oriented</strong>
-            </div>
-            <div class="mini-card">
-              <span class="mini-label">Delivery</span>
-              <strong>Prototype to launch</strong>
-            </div>
-            <div class="mini-card">
-              <span class="mini-label">Stack</span>
-              <strong>Modern & serverless</strong>
-            </div>
-            <div class="mini-card">
-              <span class="mini-label">Base</span>
-              <strong>Pune, India</strong>
-            </div>
+          <div class="architecture-footer">
+            <span>Discover</span>
+            <span>Design</span>
+            <span>Build</span>
+            <span>Deploy</span>
           </div>
         </div>
 
-        <div class="floating-card card-a">
-          <span class="floating-kicker">Signal</span>
-          <strong>Real-world systems</strong>
-          <p>Built for business use, not just demos.</p>
+        <div class="floating-note note-one">
+          <span>01</span>
+          <strong>Business context first</strong>
+          <p>Technology is shaped around the workflow, user, and outcome.</p>
         </div>
 
-        <div class="floating-card card-b">
-          <span class="floating-kicker">Focus</span>
-          <strong>Research to product</strong>
-          <p>Turning complex ideas into usable software.</p>
+        <div class="floating-note note-two">
+          <span>02</span>
+          <strong>Built to be useful</strong>
+          <p>Clear architecture, maintainable delivery, practical deployment.</p>
         </div>
       </div>
     </section>
 
-    <section class="section trust-strip reveal">
-      <p>Built for teams that want clean execution, strong design, and serious engineering.</p>
-      <div class="trust-tags">
-        <span>Startup-grade delivery</span>
-        <span>Lean engineering</span>
+    <section class="signal-bar section reveal" aria-label="VectiNeur approach">
+      <div class="signal-intro">
+        <span class="section-kicker">Built with intent</span>
+        <p>Technical depth, product thinking, and disciplined execution.</p>
+      </div>
+
+      <div class="signal-items">
+        <span>Outcome-led engineering</span>
         <span>Production-minded design</span>
-        <span>Serverless-friendly</span>
+        <span>Lean delivery</span>
+        <span>Scalable foundations</span>
       </div>
     </section>
 
     <section id="services" class="section">
       <div class="section-heading reveal">
-        <span class="section-kicker">What we do</span>
-        <h2>Services that connect research, software, and business value.</h2>
+        <span class="section-kicker">Capabilities</span>
+        <h2>Engineering services for teams building what comes next.</h2>
         <p>
-          The work is deliberately practical: build the system, make it reliable, and make it useful enough
-          for a real team to depend on.
+          We work across AI, software, automation, and technical innovation —
+          with an emphasis on clear problem definition, reliable implementation,
+          and measurable usefulness.
         </p>
       </div>
 
       <div class="service-grid">
         <article class="service-card reveal">
-          <div class="service-icon">01</div>
-          <h3>AI / ML product engineering</h3>
-          <p>Models, workflows, and data pipelines designed to solve specific business problems.</p>
+          <div class="service-topline">
+            <span class="service-number">01</span>
+            <span class="service-tag">AI / ML</span>
+          </div>
+          <h3>AI &amp; ML Product Engineering</h3>
+          <p>
+            Design and implementation of AI-enabled products, model workflows,
+            application logic, and data pipelines aligned to a specific business use case.
+          </p>
+          <div class="service-footer">Models · Pipelines · Applications</div>
         </article>
 
         <article class="service-card reveal">
-          <div class="service-icon">02</div>
-          <h3>Computer vision systems</h3>
-          <p>Detection, classification, tracking, and recognition for real operational settings.</p>
+          <div class="service-topline">
+            <span class="service-number">02</span>
+            <span class="service-tag">VISION</span>
+          </div>
+          <h3>Computer Vision Systems</h3>
+          <p>
+            Detection, classification, recognition, and tracking systems built
+            for visual data and operational environments.
+          </p>
+          <div class="service-footer">Detection · Recognition · Tracking</div>
         </article>
 
         <article class="service-card reveal">
-          <div class="service-icon">03</div>
-          <h3>Automation and internal tools</h3>
-          <p>Replace repetitive manual work with lightweight systems that save time and reduce error.</p>
+          <div class="service-topline">
+            <span class="service-number">03</span>
+            <span class="service-tag">AUTOMATION</span>
+          </div>
+          <h3>Automation &amp; Internal Tools</h3>
+          <p>
+            Lightweight software that removes repetitive work, connects workflows,
+            and gives teams faster, more consistent execution.
+          </p>
+          <div class="service-footer">Workflow · Integration · Efficiency</div>
         </article>
 
         <article class="service-card reveal">
-          <div class="service-icon">04</div>
-          <h3>Innovation intelligence</h3>
-          <p>Convert technical research into something measurable, deployable, and commercially useful.</p>
+          <div class="service-topline">
+            <span class="service-number">04</span>
+            <span class="service-tag">R&amp;D</span>
+          </div>
+          <h3>Innovation Intelligence</h3>
+          <p>
+            Translate technical research and complex ideas into structured,
+            measurable, and deployable software initiatives.
+          </p>
+          <div class="service-footer">Research · Validation · Productization</div>
         </article>
       </div>
     </section>
 
     <section id="process" class="section process-section">
-      <div class="section-heading reveal">
-        <span class="section-kicker">How we work</span>
-        <h2>A simple flow that keeps projects clean and moving.</h2>
-      </div>
-
-      <div class="timeline">
-        <div class="step reveal">
-          <span class="step-num">1</span>
-          <div>
-            <h3>Discover</h3>
-            <p>Understand the goal, the user, the workflow, and the technical risk.</p>
-          </div>
+      <div class="process-shell">
+        <div class="section-heading reveal">
+          <span class="section-kicker">Approach</span>
+          <h2>A disciplined path from problem definition to working software.</h2>
+          <p>
+            Every engagement begins with the problem, not the technology.
+            The objective is a clear path to a solution that can be used,
+            maintained, and extended.
+          </p>
         </div>
 
-        <div class="step reveal">
-          <span class="step-num">2</span>
-          <div>
-            <h3>Design</h3>
-            <p>Map the product, data flow, UI, and the simplest path to a working system.</p>
-          </div>
-        </div>
+        <div class="process-grid">
+          <article class="process-step reveal">
+            <span class="step-number">01</span>
+            <div>
+              <h3>Discover</h3>
+              <p>
+                Clarify the objective, user, workflow, constraints, technical
+                dependencies, and key delivery risks.
+              </p>
+            </div>
+          </article>
 
-        <div class="step reveal">
-          <span class="step-num">3</span>
-          <div>
-            <h3>Build</h3>
-            <p>Ship a polished solution that is stable, maintainable, and ready to grow.</p>
-          </div>
+          <article class="process-step reveal">
+            <span class="step-number">02</span>
+            <div>
+              <h3>Design</h3>
+              <p>
+                Define the system architecture, data flow, product experience,
+                and the simplest viable route to a working solution.
+              </p>
+            </div>
+          </article>
+
+          <article class="process-step reveal">
+            <span class="step-number">03</span>
+            <div>
+              <h3>Build</h3>
+              <p>
+                Engineer the solution with an emphasis on clarity, stability,
+                maintainability, and readiness for the next stage of growth.
+              </p>
+            </div>
+          </article>
+
+          <article class="process-step reveal">
+            <span class="step-number">04</span>
+            <div>
+              <h3>Deploy &amp; refine</h3>
+              <p>
+                Move from validated implementation toward dependable use,
+                feedback, iteration, and practical expansion.
+              </p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section id="work" class="section work-section">
+    <section id="work" class="section">
       <div class="section-heading reveal">
         <span class="section-kicker">Selected work</span>
-        <h2>Proof of execution matters more than promises.</h2>
+        <h2>Applied engineering, grounded in a real operational use case.</h2>
+        <p>
+          A representative example of our approach to computer vision:
+          focused scope, clear technical objectives, and a path toward practical use.
+        </p>
       </div>
 
-      <div class="case-study reveal">
-        <div class="case-copy">
-          <span class="case-label">Featured project</span>
-          <h3>Cattle recognition system</h3>
-          <p>
-            A computer vision model built to identify and recognize cattle in visual data,
-            supporting automation in livestock-focused workflows.
+      <article class="case-study reveal">
+        <div class="case-main">
+          <div class="case-meta">
+            <span>Featured project</span>
+            <span>Computer vision</span>
+          </div>
+
+          <h3>Livestock Recognition System</h3>
+
+          <p class="case-description">
+            A computer vision system developed to identify and recognize cattle
+            from visual data, supporting automation within livestock-focused workflows.
           </p>
 
-          <div class="case-points">
-            <span>Deep learning pipeline</span>
-            <span>Recognition workflow</span>
-            <span>Operational use case</span>
+          <div class="case-details">
+            <div>
+              <span>Technical scope</span>
+              <strong>Deep learning pipeline</strong>
+            </div>
+            <div>
+              <span>Application</span>
+              <strong>Recognition workflow</strong>
+            </div>
+            <div>
+              <span>Design priority</span>
+              <strong>Operational usability</strong>
+            </div>
           </div>
         </div>
 
-        <div class="case-results">
-          <div class="result-card">
-            <strong>Outcome-driven</strong>
-            <span>Designed to reduce manual effort</span>
+        <aside class="case-aside">
+          <span class="section-kicker">Engineering principles</span>
+
+          <div class="principle">
+            <span>01</span>
+            <div>
+              <strong>Outcome-led</strong>
+              <p>Start with the operational objective and define technology around it.</p>
+            </div>
           </div>
-          <div class="result-card">
-            <strong>Practical</strong>
-            <span>Focused on deployment, not just research</span>
+
+          <div class="principle">
+            <span>02</span>
+            <div>
+              <strong>Practical</strong>
+              <p>Prioritize implementation that can move beyond a proof of concept.</p>
+            </div>
           </div>
-          <div class="result-card">
-            <strong>Scalable</strong>
-            <span>Built with future expansion in mind</span>
+
+          <div class="principle">
+            <span>03</span>
+            <div>
+              <strong>Extendable</strong>
+              <p>Build foundations that leave room for future capabilities and scale.</p>
+            </div>
           </div>
-        </div>
-      </div>
+        </aside>
+      </article>
     </section>
 
-    <section class="section stats-section">
-      <div class="stats-grid reveal">
-        <div class="stat-card">
-          <strong>Modern UI</strong>
-          <span>Clean structure with premium motion</span>
-        </div>
-        <div class="stat-card">
-          <strong>Serverless-ready</strong>
-          <span>Built to connect with Firebase or an endpoint</span>
-        </div>
-        <div class="stat-card">
-          <strong>Fast to deploy</strong>
-          <span>Static files, easy hosting, no heavy stack</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section about-section">
-      <div class="about-grid">
-        <div class="about-card reveal">
-          <span class="section-kicker">Why VectiNeur</span>
-          <h2>Calm, premium, and technically serious.</h2>
+    <section class="section operating-section">
+      <div class="operating-grid">
+        <article class="operating-card reveal">
+          <span class="section-kicker">What clients can expect</span>
+          <h2>Clear thinking. Clean engineering. Direct communication.</h2>
           <p>
-            The brand should feel like a company that takes software quality seriously:
-            thoughtful visuals, clean structure, and language that sounds confident.
+            The goal is not to add complexity. It is to create the right level
+            of technology for the problem and deliver it with discipline.
           </p>
-        </div>
+        </article>
 
-        <div class="about-card accent reveal">
-          <h3>What clients get</h3>
-          <ul>
-            <li>Clear problem framing</li>
-            <li>Fast prototyping</li>
-            <li>Clean execution</li>
-            <li>Simple communication</li>
-          </ul>
+        <div class="operating-points">
+          <div class="operating-point reveal">
+            <strong>Clear problem framing</strong>
+            <span>Align the technical work with the actual business objective.</span>
+          </div>
+          <div class="operating-point reveal">
+            <strong>Rapid validation</strong>
+            <span>Move quickly from assumptions to something tangible and testable.</span>
+          </div>
+          <div class="operating-point reveal">
+            <strong>Maintainable delivery</strong>
+            <span>Favor understandable systems over unnecessary technical complexity.</span>
+          </div>
+          <div class="operating-point reveal">
+            <strong>Simple communication</strong>
+            <span>Keep decisions, progress, and next steps easy to understand.</span>
+          </div>
         </div>
       </div>
     </section>
@@ -292,47 +415,74 @@
     <section id="contact" class="section contact-section">
       <div class="contact-layout">
         <div class="contact-copy reveal">
-          <span class="section-kicker">Contact</span>
-          <h2>Tell us what you are building.</h2>
+          <span class="section-kicker">Start a conversation</span>
+          <h2>Have a product, workflow, or technical problem to solve?</h2>
           <p>
-            For enquiries, partnerships, prototypes, or product work, send a short message and
-            we will reply from the company inbox.
+            Send a brief overview of what you are building, where the challenge
+            sits, and what you need from us. We will review the context and respond
+            from the company inbox.
           </p>
 
           <div class="contact-details">
             <div>
               <span>Email</span>
-              <strong>contact@vectineur.com</strong>
+              <a href="mailto:contact@vectineur.com">contact@vectineur.com</a>
             </div>
             <div>
               <span>Location</span>
               <strong>Pune, India</strong>
             </div>
             <div>
-              <span>Company size</span>
-              <strong>2–10 employees</strong>
+              <span>Engagements</span>
+              <strong>Prototypes · Product work · Partnerships</strong>
             </div>
           </div>
         </div>
 
         <form class="contact-form reveal" id="contactForm">
-          <div class="form-row">
-            <input type="text" name="name" id="name" placeholder="Your name" required />
-            <input type="email" name="email" id="email" placeholder="Email address" required />
+          <div class="form-header">
+            <div>
+              <span class="section-kicker">Project enquiry</span>
+              <h3>Tell us what you are building.</h3>
+            </div>
+            <span class="form-status">Response from company inbox</span>
           </div>
 
-          <input type="text" name="company" id="company" placeholder="Company / project name" />
-          <textarea
-            name="message"
-            id="message"
-            rows="6"
-            placeholder="What are you trying to build?"
-            required
-          ></textarea>
+          <div class="form-row">
+            <label>
+              <span>Your name</span>
+              <input type="text" name="name" id="name" placeholder="Full name" autocomplete="name" required />
+            </label>
 
-          <button type="submit" class="btn btn-primary form-btn">Send enquiry</button>
+            <label>
+              <span>Email address</span>
+              <input type="email" name="email" id="email" placeholder="you@company.com" autocomplete="email" required />
+            </label>
+          </div>
+
+          <label>
+            <span>Company / project</span>
+            <input type="text" name="company" id="company" placeholder="Company or project name" autocomplete="organization" />
+          </label>
+
+          <label>
+            <span>Project brief</span>
+            <textarea
+              name="message"
+              id="message"
+              rows="7"
+              placeholder="What are you trying to build, improve, or automate?"
+              required
+            ></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-primary form-btn" id="submitBtn">
+            Send project enquiry <span aria-hidden="true">↗</span>
+          </button>
+
           <p class="form-note">
-            This form is ready for your serverless backend or Firebase endpoint.
+            Prefer email? Write directly to
+            <a href="mailto:contact@vectineur.com">contact@vectineur.com</a>.
           </p>
         </form>
       </div>
@@ -340,18 +490,25 @@
   </main>
 
   <footer class="site-footer">
-    <div>
+    <div class="footer-brand">
       <strong>VectiNeur Labs</strong>
-      <p>Engineering AI-driven software & innovation intelligence.</p>
+      <p>AI engineering, software systems, and innovation intelligence.</p>
     </div>
+
     <div class="footer-links">
-      <a href="#services">Services</a>
+      <a href="#services">Capabilities</a>
+      <a href="#process">Approach</a>
       <a href="#work">Work</a>
       <a href="#contact">Contact</a>
     </div>
+
+    <div class="footer-meta">
+      <span>© <span id="year"></span> VectiNeur Labs</span>
+      <a href="#top" aria-label="Back to top">Back to top ↑</a>
+    </div>
   </footer>
 
-  <div class="toast" id="toast" aria-live="polite"></div>
+  <div class="toast" id="toast" aria-live="polite" role="status"></div>
 
   <script src="config.js"></script>
   <script src="script.js"></script>
